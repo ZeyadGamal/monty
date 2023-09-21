@@ -1,4 +1,5 @@
 #include "monty.h"
+stack_t *head = NULL;
 
 /**
  * read_line - reads line and separate to tokens
