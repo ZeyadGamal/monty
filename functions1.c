@@ -40,6 +40,7 @@ void push(stack_t **new, __attribute__((unused))unsigned int line_n)
 	if (head == NULL)
 	{
 		head = *new;
+		return;
 	}
 	temp = head;
 	head = *new;
